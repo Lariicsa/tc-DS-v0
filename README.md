@@ -11,10 +11,11 @@ _Entorno de desarrollo basado en React y diseño atómico para el diseño de Int
 
 ## Índice
 
-1. [Estructura](#Estructura-base)
+1. [Breakpoints](#Breakpoints)
 1. [Colores](#Colores)
 1. [Tipografías](#Tipografías)
 1. [íconos](#íconos)
+1. [Estructura](#Estructura-base)
 
 ## Colores
 
@@ -79,7 +80,7 @@ Para la íconografía manejamos SVG en base64 en la hoja de [Mixins]( #mixins )
 
 En la iconografía que tiene variables se manejan 2 variables: nombre del ícono y nombre del color
 
-ejemplo: `` @include('heart', $red) ``
+ejemplo: `` @include icon('heart', $red) ``
 
 - icon($name, $color)
   - 'arrow'
@@ -88,6 +89,28 @@ ejemplo: `` @include('heart', $red) ``
   - 'profile'
   - 'settings'
   - 'user'
+
+
+## Breakpoints
+
+Actualmente se manejan 3 tamaños en pantalla: 
+
+- Default _Pantallas mayores a 768px_
+- Tablet _Pantallas menores a 768px y mayores a 376_
+- Mobile _Pantallas menores a 376_ 
+
+### variables en SCSS 
+
+- $tablet
+- $mobile
+
+En caso de requerir un punto específico se usa el mixin:
+
+- until($device)
+
+Inicadndo en la variable *$device* el punto máximo de pantalla
+
+ejemplo: `` @include until('1024px') ``
 
 
 ## Estructura base
