@@ -11,9 +11,9 @@ _Entorno de desarrollo basado en React y diseño atómico para el diseño de Int
 
 ## Índice
 
-1. [Estructura](#Estructura)
+1. [Estructura](#Estructura-base)
 1. [Colores](#Colores)
-1. [Tipografías](#Tipografias)
+1. [Tipografías](#Tipografías)
 
 ## Colores
 
