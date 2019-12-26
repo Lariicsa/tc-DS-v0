@@ -14,6 +14,7 @@ _Entorno de desarrollo basado en React y diseño atómico para el diseño de Int
 1. [Estructura](#Estructura-base)
 1. [Colores](#Colores)
 1. [Tipografías](#Tipografías)
+1. [íconos](#íconos)
 
 ## Colores
 
@@ -67,6 +68,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 - $bold
 - $semibold
 - $regular
+
+## Íconos
+
+### variables en SCSS 
+
+Para la íconografía manejamos SVG en base64 en la hoja de [Mixins]( #mixins )
+
+- logo-color, logo a todo color
+
+En la iconografía que tiene variables se manejan 2 variables: nombre del ícono y nombre del color
+
+ejemplo: `` @include('heart', $red) ``
+
+- icon($name, $color)
+  - 'arrow'
+  - 'calendar'
+  - 'heart'
+  - 'profile'
+  - 'settings'
+  - 'user'
 
 
 ## Estructura base
