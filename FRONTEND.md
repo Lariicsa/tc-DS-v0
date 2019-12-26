@@ -11,6 +11,7 @@
 
 1. [Componentes](#Componentes)
    - [Botones](#Botones)
+   - [BurgerButton](#BurgerButton)
 
 # Componentes
 
@@ -47,4 +48,19 @@ Ejemplo:
 
 ```HTML
 <button type="submit" class="button primary lg">Iniciar sesión</button>
+```
+
+
+## BurgerButton
+
+- ¿Cómo usar en un Componente?:
+
+```javascript
+...
+const [open, setOpen] = useState(false);
+```
+
+
+```HTML
+<BurgerMenu open={open} setOpen={setOpen} />
 ```
