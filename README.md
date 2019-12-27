@@ -74,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### variables en SCSS 
 
-Para la íconografía manejamos SVG en base64 en la hoja de [Mixins]( #mixins )
+Para la íconografía manejamos SVG en base64 en la hoja de [Mixins]( #Mixins.md )
 
 - logo-color, logo a todo color
 

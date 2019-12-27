@@ -53,7 +53,7 @@ Ejemplo:
 
 ## BurgerButton
 
-- ¿Cómo usar en un Componente?:
+- Cómo llamar en un Componente:
 
 ```javascript
 ...
